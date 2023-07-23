@@ -19,5 +19,5 @@ from summer import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('summer/',views.SummerView.as_view(),name="Summer")
+    path('',views.SummerView.as_view(),name="Summer")
 ]
